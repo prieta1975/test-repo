@@ -20,7 +20,7 @@ root.config(menu=menuBar)
 
 # Creates File menu option & adds options for File menu option
 fileMenu = Menu(master=menuBar)
-menuBar.add_cascade(label="File", menu=fileMenu)
+menuBar.add_cascade(label="Fichero", menu=fileMenu)
 fileMenu.add_command(label="New Project...", command=openFile)
 
 # creates sub menu "SubMenu" for File menu option "Submenu" & creates options for sub menu
