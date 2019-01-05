@@ -38,5 +38,12 @@ editMenu = Menu(master=menuBar)
 menuBar.add_cascade(label="Edit", menu=editMenu)
 editMenu.add_command(label="Copy", command=doNothing)
 
+# Creates Label to write output
+w = Label(root, text="Hello World  ")
+w.pack()
+
+
 # Keeps window open
+root.geometry("200x200")
 root.mainloop()
+
